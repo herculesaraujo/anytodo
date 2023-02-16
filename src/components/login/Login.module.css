@@ -1,0 +1,30 @@
+.login{
+    text-align: center;
+    align-items: center;
+    display: list-item;
+    /*background-color: #590dfc;*/
+  
+}
+
+.login h1{
+    font-size: 25px;
+    text-align: center;
+    line-height: 32px;
+    color: #590dfc;
+    /* mudar a fonte*/
+    font-style: normal;
+}
+
+.login h3{
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    font-style: normal;
+}
+
+.login .loginbutton{
+    height: 54px;
+    width: 337px;
+    border-radius: 10px;
+    box-shadow: 0px 0px  3px rgba(0, 0, 0, 0, 0.084), 0px 2px 3px  rgba(0, 0, 0, 0, 0.168);
+}
