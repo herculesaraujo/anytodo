@@ -1,12 +1,20 @@
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+import Container from './components/layout/Container';
+import PaginaInicial from "./components/pages/PaginaInicial";
+import NavBar from './components/layout/NavBar';
 
-import './App.css';
-import LoginPage from './components/login/LoginPage';
 
 function App() {
   return (
     <div className="App">
-      
-     <LoginPage />
+    <Router>
+      <NavBar />
+      <Container customClass="min_height">
+        <Routes>
+          <Route exact path='paginaInicial' element={<PaginaInicial />} />
+        </Routes>
+      </Container>
+    </Router>
     </div>
   );
 }

@@ -1,0 +1,33 @@
+.navbar {
+    position: absolute;
+    width: 1280px;
+    height: 110px;
+    left: 0px;
+    top: 0px;
+    background: #590DFC;
+    border-radius: 2px;
+}
+
+.icon{
+    position: absolute;
+    left: 3.05%;
+    right: 91.09%;
+    top: 9%;
+    bottom: 89.54%;
+}
+
+.item{
+    list-style: none;
+    position: absolute;
+    width: 121px;
+    height: 32px;
+    left: 119px;
+    top: 54px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
