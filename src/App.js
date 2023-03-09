@@ -8,10 +8,10 @@ function App() {
   return (
     <div className="App">
     <Router>
-      <NavBar />
+
       <Container customClass="min_height">
         <Routes>
-          <Route exact path='paginaInicial' element={<PaginaInicial />} />
+          <Route exact path='/' element={<PaginaInicial />} />
         </Routes>
       </Container>
     </Router>
