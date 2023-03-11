@@ -1,0 +1,125 @@
+.box{
+    box-sizing: border-box;
+    position: relative;
+    width: 491px;
+    height: 568px;
+    left: 395px;
+    top: 202px;
+    background: rgba(89, 13, 252, 0.22);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+
+.icon{
+    position: absolute;
+    left: 40.17%;
+    right: 46.02%;
+    top: 10.81%;
+    bottom: 58.17%;
+
+}
+
+.anytodo{
+    position: absolute;
+    width: 121px;
+    height: 32px;
+    left: 188px;
+    top: 200px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    color: #590DFC;
+}
+
+.text{
+    position: absolute;
+    width: 241px;
+    height: 46px;
+    left: 140px;
+    top: 275px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
+
+.login_google{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 15px;
+
+    position: absolute;
+    width: 337px;
+    height: 54px;
+    left: 80px;
+    top: 365px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.login_apple{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 15px;
+
+    position: absolute;
+    width: 337px;
+    height: 54px;
+    left: 80px;
+    top: 450px;
+
+    background: #000000;
+    border-radius: 10px;
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+.p{
+    position: absolute;
+    width: 241px;
+    height: 52px;
+    left: 140px;
+    top: 510px;
+
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.crieAgora{
+    position: absolute;
+    width: 241px;
+    height: 46px;
+    left: 130px;
+    top: 535px;
+
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #590DFC;
+}

@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+import Container from './components/layout/Container';
+import PaginaInicial from "./components/pages/PaginaInicial";
+import NavBar from './components/layout/NavBar';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> Bora caralho.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Router>
+
+      <Container customClass="min_height">
+        <Routes>
+          <Route exact path='/' element={<PaginaInicial />} />
+        </Routes>
+      </Container>
+    </Router>
     </div>
   );
 }
