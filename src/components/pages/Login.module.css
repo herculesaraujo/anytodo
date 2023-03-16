@@ -1,0 +1,74 @@
+.box {
+    display: block;
+    width: 410px;
+    height: 500px;
+    background: rgba(89, 13, 252, 0.22);
+    border-radius: 20px;
+}
+
+.icon {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.h1 {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 41px;
+    text-align: center;
+    color: #000000;
+}
+
+.divInput {
+    text-align: center;
+}
+
+.h2 {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 41px;
+    padding-left: 45px;
+    color: #590DFC;
+}
+
+.input {
+    width: 337px;
+    height: 53px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+    border-radius: 10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.54);
+
+}
+
+.divButton {
+    text-align: center;
+}
+
+.submit {
+    width: 155px;
+    height: 53px;
+    background: #590DFC;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+    border-radius: 10px;
+    cursor: pointer;
+
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 41px;
+    color: #FFFFFF;
+
+
+}

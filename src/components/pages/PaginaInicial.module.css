@@ -1,31 +1,31 @@
 .box{
-    box-sizing: border-box;
-    position: relative;
-    width: 491px;
-    height: 568px;
-    left: 395px;
-    top: 202px;
+    display: block;
+    
+   
+    width: 410px;
+    height: 500px;
+
     background: rgba(89, 13, 252, 0.22);
-    border: 1px solid #000000;
+    box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 2px;
+    border: 1px solid #000000;
+    border-radius: 20px; 
 }
+
 
 .icon{
-    position: absolute;
-    left: 40.17%;
-    right: 46.02%;
-    top: 10.81%;
-    bottom: 58.17%;
 
+    padding-top: 50px;
+    max-width: 100%;
+    right: 46.02%;
+    bottom: 58.17%;
+    text-align: center;
 }
 
-.anytodo{
-    position: absolute;
-    width: 121px;
-    height: 32px;
-    left: 188px;
-    top: 200px;
+
+.divAnyTodo{
+    padding-top: 10px;
+    max-width: 100%;
     font-family: 'PT Sans';
     font-style: normal;
     font-weight: 400;
@@ -35,12 +35,10 @@
     color: #590DFC;
 }
 
+
+
 .text{
-    position: absolute;
-    width: 241px;
-    height: 46px;
-    left: 140px;
-    top: 275px;
+    padding-top: 10px;
     font-family: 'PT Sans';
     font-style: normal;
     font-weight: 400;
@@ -50,18 +48,17 @@
     color: #000000;
 }
 
+.divGoogle{
+    padding-top: 10px;
+    text-align: center;
+}
+
 .login_google{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     padding: 15px;
     gap: 15px;
 
-    position: absolute;
     width: 337px;
     height: 54px;
-    left: 80px;
-    top: 365px;
 
     background: #FFFFFF;
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
@@ -70,18 +67,20 @@
     cursor: pointer;
 }
 
+.divApple{
+    padding-top: 10px;
+    text-align: center;
+}
+
 .login_apple{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+
     padding: 15px;
     gap: 15px;
 
-    position: absolute;
+    
     width: 337px;
     height: 54px;
-    left: 80px;
-    top: 450px;
+  
 
     background: #000000;
     border-radius: 10px;
@@ -91,11 +90,10 @@
 }
 
 .p{
-    position: absolute;
+    
     width: 241px;
     height: 52px;
-    left: 140px;
-    top: 510px;
+   
 
     font-family: 'PT Sans';
     font-style: normal;
@@ -108,12 +106,10 @@
 }
 
 .crieAgora{
-    position: absolute;
+    
     width: 241px;
     height: 46px;
-    left: 130px;
-    top: 535px;
-
+  
     font-family: 'PT Sans';
     font-style: normal;
     font-weight: 400;
@@ -122,4 +118,12 @@
     text-align: center;
 
     color: #590DFC;
+}
+
+/*APLICANDO A RESPONSIVIDADE*/
+
+@media (min-width: 480px){
+    .box{
+        color: burlywood;
+    }
 }
